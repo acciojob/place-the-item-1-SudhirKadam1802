@@ -2,7 +2,7 @@
 /* Your CSS Code here. */
 .holder{
 	display: flex;
-	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	padding: 10px;
 	gap: 10px;
@@ -21,10 +21,10 @@
 	height: 120px;
 	width: 120px;
 	display: flex;
-	   display-wrap: wrap;                    /* Prevent squashing */
+	   display-wrap: wrap;                
         align-items: flex-start;
-        justify-content: flex-start;
-        font-size: 40px;
+        justify-content: flex-start; 
+        font-size: 40px; 
         font-weight: bold;
         color: black;
 }
