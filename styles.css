@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	gap: 10px;
+}
+.green{
+	background-color: green;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+
+.item{
+	height: 120px;
+	width: 120px;
+	display: flex;
+	   display-wrap: wrap;                    /* Prevent squashing */
+        align-items: flex-start;
+        justify-content: flex-start;
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+}
